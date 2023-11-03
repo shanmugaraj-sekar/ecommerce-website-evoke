@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&family=Jost:ital,wght@0,200;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,200;0,500;0,900;1,300;1,400&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400&family=Rubik:wght@300;400&display=swap');
+
+.navbar {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.navbar-brand {
+    padding-left: 40px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+
+}
+
+
+.nav-item {
+    padding: 10px 10px;
+}
+
+.active {
+    background-color: rgba(204, 198, 198, 0.726);
+}
+
+.End-item {
+    margin-right: 40px;
+}
+
+.head_king {
+    margin-top: 60px;
+    height: 100vh;
+    background-image: url("evoke-img/cloth_main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width:540px) {
+    .head_king {
+        background-position: left;
+    }
+}
+
+.child_help {
+    padding-top: 250px;
+    padding-right: 60px;
+    display: grid;
+    justify-content: end;
+}
+
+@media only screen and (max-width:540px) {
+    .child_help {
+        padding-left: 10px;
+        padding-right: 0px;
+        justify-content: left;
+    }
+
+}
+
+.child_help h3 {
+    margin-bottom: 0%;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+@media only screen and (max-width:540px) {
+    .child_help h3 {
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+}
+
+.child_help h1 {
+
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+@media only screen and (max-width:540px) {
+    .child_help h1 {
+        font-size: 25px;
+        margin-left: 0px;
+        padding-left: px;
+        padding-right: 60px;
+    }
+
+}
+
+.child_help b {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.head_btn {
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    border-radius: 5px;
+    border: 0px;
+    transition: box-shadow .5s;
+}
+
+.head_btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* offer-section */
+.offers {
+    background-color: whitesmoke;
+
+}
+
+.offers_header {
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+
+.line {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 20%;
+    margin: auto;
+
+}
+
+.offers .row {
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+@media only screen and (max-width:540px) {
+    .offers .row {
+        justify-content: center;
+    }
+}
+
+.offer_card {
+    padding: 2px 2px;
+    max-width: 21% !important;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+
+}
+
+
+@media only screen and (max-width:540px) {
+    .offer_card {
+        max-width: 80% !important;
+    }
+
+}
+
+
+
+.offer_img {
+    margin: auto;
+    /* border-radius: 5px; */
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.offer_font {
+    background-color: rgb(0 0 0 / 84%);
+    height: 120px;
+    margin-top: 2px;
+    padding-top: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.offer_font h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+.offer_font h4 {
+    margin: 0px;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    opacity: 0.7;
+    color: #ffffff;
+    font-family: 200;
+}
+
+.offer_font p {
+    color: white;
+    padding: 0%;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+.offer_btn {
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    transition: box-shadow .5s;
+    border: none;
+    width: 60px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    border-radius: 2px;
+}
+
+.offer_btn:hover {
+    box-shadow: rgba(255, 255, 255, 0.327) 0px 0px 7px 1px;
+}
+
+.rate {
+    padding: 0%;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+}
+
+/* new_brach */
+.new_branch {
+    background-image: url("evoke-img/offer_img.jpg");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+
+}
+
+.new_branch_child {
+    margin: 70px;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 50px;
+    border-radius: 20px;
+    background-color: rgba(216, 191, 216, 0.568);
+}
+
+.new_branch_child h1 {
+    color: white;
+
+}
+
+.new_branch_child h3 {
+    color: white;
+}
+
+.new_branch_btn {
+    margin-top: 7px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 5px 20px rgb(107, 106, 106);
+    border-radius: 8px;
+    border: 0px;
+    color: cornsilk;
+}
+
+
+/* enquiry */
+.enquiry {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    height: 250px;
+    background-color: rgb(0 0 0 / 84%);
+
+}
+
+.enquiry div {
+    text-align: center;
+}
+
+.enquiry h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+#email {
+    font-family: 'Jost', sans-serif;
+    border: none;
+    margin-top: 30px;
+
+
+}
+
+#email:focus {
+    box-shadow: 1px 1px 15px rgb(118, 118, 118);
+
+}
+
+.enq_btn {
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.enq_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* join */
+
+.combo {
+    height: auto;
+}
+
+.combo-row {
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    padding-top: 40px;
+}
+
+.combo-row h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.combo-img {
+    border: #dfdfdf solid 1px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+.combo-img:hover {
+    box-shadow: 0 0 10px #7676763a;
+
+}
+
+.combo h4 {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+    color: #000000;
+    text-decoration: underline 1px;
+}
+
+.combo a {
+    text-decoration: none;
+}
+
+/* .combo {
+    height: auto;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+} */
+
+/* .fa {
+    font-size: 20px !important;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding-top: 5px;
+  }
+.fa-facebook{
+    background-color: rgb(40, 28, 207);
+    color: white;
+}
+.fa-twitter{
+    color: white;
+    background-color: rgb(78, 170, 231);
+}
+.fa-instagram{
+    color: white;
+    background-color: rgb(240, 124, 36);
+} */

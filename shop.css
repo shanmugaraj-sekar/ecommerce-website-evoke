@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&family=Jost:ital,wght@0,200;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,200;0,500;0,900;1,300;1,400&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.navbar {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.navbar-brand {
+    padding-left: 40px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+
+}
+
+
+.nav-item {
+    padding: 10px 10px;
+}
+
+.active {
+    background-color: rgba(204, 198, 198, 0.726);
+}
+
+.End-item {
+    margin-right: 40px;
+}
+
+/* kid_off */
+.kid_off {
+    margin-top: 60px;
+    background-image: url("evoke-img/kid_offer_bg.jpg");
+    height: 500px;
+    background-position: top;
+
+    background-size: cover;
+}
+
+@media only screen and (max-width:540px) {
+    .kid_off {
+        background-position: right;
+
+    }
+}
+
+.kid_off_parent {
+    padding-top: 180px;
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+
+
+.kid_off_parent h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+}
+
+
+.kid_off_parent h4 {
+    padding: 0px 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.off_detail {
+    margin-top: 20px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+
+    border-bottom: 2px solid black;
+    transform: 2s;
+}
+
+
+
+/* category */
+.category {
+    height: auto;
+
+    background-color: rgb(238, 238, 232);
+}
+
+.cat_head {
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+
+}
+
+.cat_line {
+    background-color: black;
+    height: 3px;
+    max-width: 13%;
+    margin: auto;
+}
+
+.cat_row {
+    justify-content: space-around;
+
+    padding-bottom: 100px;
+}
+
+.cat_parent {
+    width: 25% !important;
+
+}
+
+@media only screen and (max-width:560px) {
+    .cat_parent {
+        padding-bottom: 50px;
+        width: 80% !important;
+    }
+
+}
+
+.cat_child {
+    display: grid;
+    text-align: center;
+    transition: 2s;
+
+
+}
+
+.cat_child:hover {
+    /* padding-left: 20px;     */
+
+
+}
+
+.category h4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.cat_img {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    transition: 2s;
+
+
+
+    border-radius: 20px;
+}
+
+.cat_img:hover {
+    transform: scale(1.09);
+    box-shadow: 0px 5px 20px rgb(107, 106, 106);
+
+}
