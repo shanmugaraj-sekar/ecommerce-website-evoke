@@ -50,7 +50,6 @@
 
 .kid_off_parent {
     padding-top: 180px;
-
     display: grid;
     justify-content: center;
     text-align: center;
@@ -143,10 +142,10 @@
 }
 
 .category h4 {
+    font-family: 'Philosopher', sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 

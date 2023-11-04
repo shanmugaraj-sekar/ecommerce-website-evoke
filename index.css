@@ -6,28 +6,6 @@
 
 
 
-
-.card-body {
-    min-height: 300px;
-    min-width: 300px;
-    margin-right: 5px;
-}
-
-
-.card-body {
-    min-height: 200px;
-    min-width: 300px;
-    margin-right: 5px;
-}
-
-.sticky-card {
-    min-width: 400px;
-    max-width: 400;
-    z-index: 1;
-    position: sticky;
-    left: 0;
-}
-
 .navbar {
     height: 60px;
     background-color: rgb(255, 255, 255);
@@ -56,7 +34,7 @@
 }
 
 .active {
-    background-color: rgba(204, 198, 198, 0.726);
+    background-color: rgba(0, 0, 0, 0.248);
 }
 
 .End-item {
@@ -66,8 +44,10 @@
 .head_king {
     margin-top: 60px;
     height: 100vh;
-    background-image: url("./evoke-img/evoke-main.jpg");
-    background-position: top;
+    /* background-image: url("./evoke-img/evoke-main.jpg"); */
+    background-image: url("https://images.unsplash.com/photo-1448376561459-dbe8868fa34c?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,9 +60,9 @@
 
 .child_help {
     padding-top: 250px;
-    padding-right: 40px;
+    padding-left: 80px;
     display: grid;
-    justify-content: end;
+    justify-content: start;
 }
 
 @media only screen and (max-width:540px) {
@@ -388,6 +368,7 @@
 }
 
 .scrolling-content {
+
     display: inline-block;
     white-space: normal;
     padding-bottom: 10px;
@@ -404,6 +385,7 @@
 
 /* small-bar */
 .small-bar {
+    margin-top: 20px;
     font-family: 'Jost', sans-serif;
     color: #767676;
     background-color: rgb(0, 0, 0);
@@ -440,55 +422,10 @@
 
 
 .copy-right {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
-/* .combo {
-    height: auto;
-}
-
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-
-.collapsible:hover {
-    background-color: #555;
-}
-
-.content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
-} */
-
-/* .fa {
-    font-size: 20px !important;
-    width: 30px;
-    height: 30px;
-    text-align: center;
+.copy-right a {
     text-decoration: none;
-    border-radius: 50%;
-    padding-top: 5px;
-  }
-.fa-facebook{
-    background-color: rgb(40, 28, 207);
-    color: white;
+    border-bottom: 0.5px solid rgb(251, 251, 251);
 }
-.fa-twitter{
-    color: white;
-    background-color: rgb(78, 170, 231);
-}
-.fa-instagram{
-    color: white;
-    background-color: rgb(240, 124, 36);
-} */
