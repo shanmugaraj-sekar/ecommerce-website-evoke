@@ -1,6 +1,9 @@
 ## E-commerce Website
 - This is a simple e-commerce website project built with HTML and CSS.
 
+## Live Preview
+<a href="https://ecommerce-website-evoke.vercel.app/">Live demo</a>
+
 ## Usage
 -  Clone the repository: git clone https://github.com/your-username/ecommerce-website.git
 
