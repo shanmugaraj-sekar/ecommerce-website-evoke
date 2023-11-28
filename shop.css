@@ -6,6 +6,7 @@
 
 .navbar {
     height: 60px;
+    width: 100%;
     background-color: rgb(255, 255, 255);
 
 
@@ -27,18 +28,17 @@
     background-color: rgba(204, 198, 198, 0.726);
 }
 
-.End-item {
-    margin-right: 40px;
-}
+
 
 /* kid_off */
 .kid_off {
     margin-top: 60px;
     background-image: url("evoke-img/kid_offer_bg.jpg");
     height: 500px;
+    width: 100%;
     background-position: top;
-
     background-size: cover;
+
 }
 
 @media only screen and (max-width:540px) {
@@ -49,11 +49,11 @@
 }
 
 .kid_off_parent {
-    padding-top: 180px;
-    display: grid;
-    justify-content: center;
-    text-align: center;
-
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -80,6 +80,7 @@
 
     border-bottom: 2px solid black;
     transform: 2s;
+    width: 300px;
 }
 
 
@@ -88,7 +89,7 @@
 .category {
     height: auto;
 
-    background-color: rgb(238, 238, 232);
+    background-color: whitesmoke;
 }
 
 .cat_head {
@@ -111,7 +112,7 @@
 .cat_row {
     justify-content: space-around;
 
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .cat_parent {
@@ -130,16 +131,11 @@
 .cat_child {
     display: grid;
     text-align: center;
-    transition: 2s;
+    transition: 1s;
 
 
 }
 
-.cat_child:hover {
-    /* padding-left: 20px;     */
-
-
-}
 
 .category h4 {
     font-family: 'Philosopher', sans-serif;
@@ -150,17 +146,15 @@
 }
 
 .cat_img {
-    border-right: 5px solid black;
-    border-bottom: 5px solid black;
+
     transition: 2s;
 
 
 
-    border-radius: 20px;
 }
 
 .cat_img:hover {
-    transform: scale(1.09);
+    transform: scale(1.04);
     box-shadow: 0px 5px 20px rgb(107, 106, 106);
 
 }
