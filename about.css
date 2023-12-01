@@ -43,22 +43,32 @@
     margin-right: 40px;
 }
 
-
-.main {
-    margin-top: 60px;
-}
-
 @media only screen and (max-width: 600px) {
     .about-hero {
         font-size: 100px !important;
     }
+
+
 }
 
+.about {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 237, 237);
+    width: 80%;
+}
 
+.main {
+    display: grid;
+    place-items: center;
+}
 
 .about-header {
     display: flex;
-
+    width: 100%;
     margin-top: 60px;
     height: 300px;
     background-position: center;
@@ -75,9 +85,48 @@
 }
 
 
+.about-para {
+    font-family: 'Didact Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-para h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(237, 237, 237);
+    width: 80%;
+    padding: 55px;
+}
+
+@media only screen and (max-width:768px) {
+    .about-us {
+        padding: 10px !important;
+    }
+}
+
+
+.review {
+    padding: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: white;
+    border-radius: 4px;
+    margin: 30px;
+}
+
+.review p {
+    margin-top: 10px;
+}
 
 .story-img {
     width: 100%;
-    height: 450px;
-    object-fit: fill;
+    height: 250px;
+    object-fit: cover;
 }

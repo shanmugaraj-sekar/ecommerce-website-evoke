@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&family=Jost:ital,wght@0,200;0,900;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Forum&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,200;0,500;0,900;1,300;1,400&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Cinzel:wght@400;500;600;700;800;900&family=Lora&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;800;900&family=Raleway:wght@100;200;300;400&family=Rubik:wght@300;400&display=swap');
 
 .navbar {
     height: 60px;
@@ -31,6 +31,69 @@
 .shop {
     background-color: whitesmoke;
 }
+
+
+/* shop-con */
+
+.shop-con {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* filter */
+
+.filter {
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-opt {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-li {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width:768px) {
+    .filter {
+        display: none;
+    }
+
+}
+
+.shop-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 40%;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .shop-head {
+        width: 100%;
+    }
+}
+
+.shop_header {
+    font-family: 'Jost', sans-serif;
+
+}
+
+
 
 /* kid_off */
 .kid_off {
@@ -119,12 +182,13 @@
 
 .cat_parent {
     width: 25% !important;
+    padding-bottom: 50px;
 
 }
 
 @media only screen and (max-width:560px) {
     .cat_parent {
-        padding-bottom: 50px;
+        padding-bottom: 0%;
         width: 80% !important;
     }
 
