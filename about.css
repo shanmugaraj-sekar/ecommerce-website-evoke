@@ -48,6 +48,14 @@
     margin-top: 60px;
 }
 
+@media only screen and (max-width: 600px) {
+    .about-hero {
+        font-size: 100px !important;
+    }
+}
+
+
+
 .about-header {
     display: flex;
 

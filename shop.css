@@ -28,7 +28,9 @@
     background-color: rgba(204, 198, 198, 0.726);
 }
 
-
+.shop {
+    background-color: whitesmoke;
+}
 
 /* kid_off */
 .kid_off {
@@ -157,4 +159,10 @@
     transform: scale(1.04);
     box-shadow: 0px 5px 20px rgb(107, 106, 106);
 
+}
+
+
+.mens-clothing {
+    overflow-y: auto;
+    white-space: nowrap;
 }

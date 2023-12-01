@@ -4,7 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400&family=Rubik:wght@300;400&display=swap');
 
+.nav-btn {
+    background-color: #000000;
 
+}
 
 .navbar {
     height: 60px;
@@ -154,7 +157,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 40px;
     padding-bottom: 40px;
     justify-content: space-evenly;
 }
@@ -165,15 +167,12 @@
     }
 }
 
-/* .offer_card {
-    padding: 2px 2px;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    cursor: pointer;
 
-} */
 
+.offer_card:hover {
+    box-shadow: rgb(130 130 130 / 44%) 0px 14px 20px 0px;
+    transform: scale(1.03);
+}
 
 @media only screen and (max-width:540px) {
     .offer_card {
